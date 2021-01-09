@@ -1,0 +1,20 @@
+.footer__copyright {
+  font-family: 'Inter';
+  font-weight: normal;
+  font-size: .9rem;
+  -webkit-font-smoothing: antialiased; /*сглаживание шрифтов*/
+  -moz-osx-font-smootthing: grayscale;
+  -webkit-text-size-adjust: 100%; /*масштабирование шрифтов*/
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  line-height: 1.14;
+  color: #fff;
+  margin: 0;
+}
+
+@media screen and (max-width: 760px) {
+  .footer__copyright {
+    line-height: 1;
+    padding-top: 48px;
+  }
+}

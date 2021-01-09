@@ -1,0 +1,20 @@
+.intro__title {
+font-family: 'Inter';
+font-weight: 900;
+font-size: 3.4rem;
+-webkit-font-smoothing: antialiased; /*сглаживание шрифтов*/
+-moz-osx-font-smootthing: grayscale;
+-webkit-text-size-adjust: 100%; /*масштабирование шрифтов*/
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+line-height: 1.07;
+color: #fff;
+margin: 0;
+}
+
+@media screen and (max-width: 424px) {
+  .intro__title {
+    font-size: 2rem;
+    line-height: 1.09;
+  }
+}

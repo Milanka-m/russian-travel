@@ -1,0 +1,54 @@
+.cover {
+  width: calc(100% - 96px);
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../../images/cover__background.jpg);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.cover::before {
+  content: " ";
+  width: 100%;
+  height: 740px;
+  background-color: #2a2c2f;
+  opacity: .3;
+}
+
+.cover:hover:before {
+  opacity: .8;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+  }
+
+  .cover::before {
+    height: 640px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .cover {
+    width: 100%;
+  }
+
+  .cover::before {
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover {
+    width: 100%;
+  }
+
+  .cover::before {
+    height: 200px;
+  }
+}

@@ -1,0 +1,25 @@
+.footer__link {
+  text-decoration: none;
+  font-family: 'Inter';
+  font-weight: normal;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased; /*сглаживание шрифтов*/
+  -moz-osx-font-smootthing: grayscale;
+  -webkit-text-size-adjust: 100%; /*масштабирование шрифтов*/
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  line-height: 1.12;
+  color: #fff;
+  margin: 0;
+}
+
+@media screen and (max-width: 760px) {
+  .footer__link {
+    font-size: 1.5rem;
+    line-height: 1;
+  } 
+
+  .footer__link:nth-of-type(1n+2) {
+    padding-top: 32px;
+  }
+} 
