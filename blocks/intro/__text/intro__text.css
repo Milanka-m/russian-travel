@@ -1,12 +1,6 @@
 .intro__text {
-font-family: 'Inter';
-font-weight: normal;
+font-weight: 400;
 font-size: 1rem;
--webkit-font-smoothing: antialiased; /*сглаживание шрифтов*/
--moz-osx-font-smootthing: grayscale;
--webkit-text-size-adjust: 100%; /*масштабирование шрифтов*/
--ms-text-size-adjust: 100%;
--moz-text-size-adjust: 100%;
 line-height: 1.6;
 color: #fff;
 margin: 0;

@@ -1,14 +1,7 @@
 .intro__list {
   text-decoration: none;
-  font-family: Inter;
-  font-style: normal;
   font-weight: bold;
   font-size: .8rem;
-  -webkit-font-smoothing: antialiased; /*сглаживание шрифтов*/
-  -moz-osx-font-smootthing: grayscale;
-  -webkit-text-size-adjust: 100%; /*масштабирование шрифтов*/
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
   line-height: 1.5;
   color: #fff;
   margin: 0;

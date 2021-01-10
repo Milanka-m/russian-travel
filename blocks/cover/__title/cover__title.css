@@ -1,22 +1,17 @@
 .cover__title {
-  font-family: 'Inter';
+  max-width: 560px;
   font-weight: 900;
   font-size: 4.5rem;
-  -webkit-font-smoothing: antialiased; /*сглаживание шрифтов*/
-  -moz-osx-font-smootthing: grayscale;
-  -webkit-text-size-adjust: 100%; /*масштабирование шрифтов*/
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
   line-height: 1.06;
   text-align: center;
   color: #fff;
-  margin: 0 auto;
+  margin: 0;
   padding-bottom: 32px;
 }
 
 @media screen and (max-width: 520px) {
   .cover__title {
-    width: 87%;
+    max-width: 288px;
     font-size: 2rem;
     line-height: 1.09;
     padding-bottom: 16px;

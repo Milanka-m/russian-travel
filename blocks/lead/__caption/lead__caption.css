@@ -1,13 +1,7 @@
 .lead__caption {
-  font-family: 'Inter';
-  font-weight: normal;
+  font-weight: 400;
   font-size: .6rem;
   line-height: 1.4;
-  -webkit-font-smoothing: antialiased; /*сглаживание шрифтов*/
-  -moz-osx-font-smootthing: grayscale;
-  -webkit-text-size-adjust: 100%; /*масштабирование шрифтов*/
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #fff;

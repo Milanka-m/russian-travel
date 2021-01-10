@@ -1,15 +1,10 @@
 .header__lang-link {
   text-decoration: none;
   color: #fff;
-  font-family: 'Inter';
   font-weight: 400;
-  -webkit-font-smoothing: antialiased; /*сглаживание шрифтов*/
-  -moz-osx-font-smootthing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
   font-size: 1.5rem;
   line-height: 1.2;
+  margin: 0;
 }
 
 .header__lang-link:first-child {

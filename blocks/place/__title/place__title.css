@@ -1,12 +1,6 @@
 .place__title {
-  font-family: 'Inter';
   font-weight: 900;
   font-size: 4.5rem;
-  -webkit-font-smoothing: antialiased; /*сглаживание шрифтов*/
-  -moz-osx-font-smootthing: grayscale;
-  -webkit-text-size-adjust: 100%; /*масштабирование шрифтов*/
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
   line-height: 1.06;
   color: #fff;
   margin: 0;
