@@ -2,12 +2,24 @@
   max-width: calc(100% - 96px);
   padding: 92px 0 24px;
   margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 701px) and (max-width: 768px) {
   .footer {
     max-width: calc(100% - 48px);
     padding-top: 88px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 700px) {
+  .footer {
+    max-width: calc(100% - 48px);
+    padding-top: 88px;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 
@@ -15,5 +27,7 @@
   .footer {
     max-width: calc(100% - 32px);
     padding-top: 64px;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
