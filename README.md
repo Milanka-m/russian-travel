@@ -2,7 +2,7 @@
 
 Проект представляет собой одностраничный сайт.
 Состоит из 7 основных блоков, включая шапку и подвал сайта.
-[Ссылка на проект в GitHub](https://github.com/Milanka-m/russian-travel.git)
+[Ссылка на проект в GitHub Pages](https://milanka-m.github.io/russian-travel/)
 
 -------
 ### Используемые технологии:
