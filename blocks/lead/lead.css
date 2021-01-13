@@ -7,9 +7,16 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .lead {
-    max-width: calc(1024px - 96px);
+    max-width: calc(100% - 96px);
+    padding-top: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    max-width: 100%;
     padding-top: 48px;
   }
 }

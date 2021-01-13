@@ -31,14 +31,28 @@
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 651px) and (max-width: 768px) {
   .cover {
     width: 100%;
     min-height: 480px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 451px) and (max-width: 650px) {
+  .cover {
+    width: 100%;
+    min-height: 380px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 450px) {
+  .cover {
+    width: 100%;
+    min-height: 260px;
+  }
+}
+
+@media screen and (max-width: 375px) {
   .cover {
     width: 100%;
     min-height: 200px;
