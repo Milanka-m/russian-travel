@@ -30,5 +30,5 @@ HTML5, CSS3, Git, БЭМ
 * перейдите в созданную директорию
    ##### cd dev
 * клонируйте репозиторий в созданную директорию
-   ##### git clone https://github.com/Milanka-m/how-to-learn.git
+   ##### git clone https://github.com/Milanka-m/russian-travel.git
 * откройте проект в любом редакторе кода
